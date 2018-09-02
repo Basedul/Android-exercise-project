@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">টপ সফটওয়ার কোম্পানি</string>
+
+    <string-array name="CompanyNames">
+        <item>BrainStation_23</item>
+        <item>Kaz software</item>
+        <item>Reve systems</item>
+        <item>Data Soft</item>
+        <item>Magnito Digital</item>
+        <item>NewsCred</item>
+        <item>Arobil</item>
+        <item>TherapBD</item>
+        <item>Wide space</item>
+        <item>Selise</item>
+        <item>Vizrt</item>
+        <item>Escenic</item>
+        <item>bKash</item>
+    </string-array>
+
+    <string-array name="CompanyLinks">
+        <item>http://www.brainstation-23.com/career/</item>
+        <item>http://kaz.com.bd/</item>
+        <item>https://www.revesoft.com/careers</item>
+        <item>http://datasoft-bd.com/career/</item>
+        <item>http://magnitodigital.com/career/</item>
+        <item>https://www.newscred.com/careers/</item>
+        <item>https://arobil.com/careers/</item>
+        <item>https://therap.recruiterbox.com/</item>
+        <item>https://www.widespace.com/careers/</item>
+        <item>https://selise.ch/selisian/</item>
+        <item>http://www.vizrt.com/careers/</item>
+        <item>http://www.escenic.com/careers/</item>
+        <item>https://www.bkash.com/career</item>
+    </string-array>
+
+    <integer-array name="CompanyPic">
+        <item>@drawable/brain_station</item>
+        <item>@drawable/kaz_software</item>
+        <item>@drawable/reve_systems</item>
+        <item>@drawable/data_soft</item>
+        <item>@drawable/magnito_digital</item>
+        <item>@drawable/news_cred</item>
+        <item>@drawable/arobil</item>
+        <item>@drawable/thrap</item>
+        <item>@drawable/widespace</item>
+        <item>@drawable/selise</item>
+        <item>@drawable/vizrt</item>
+        <item>@drawable/escenic</item>
+        <item>@drawable/bkash</item>
+    </integer-array>
+
+</resources>
