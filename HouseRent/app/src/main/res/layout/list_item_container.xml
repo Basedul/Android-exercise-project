@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image_view_for_image_show_in_list_item_container_xml_file"
+        android:layout_width="135dp"
+        android:layout_height="149dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/ic_menu_camera" />
+
+    <TextView
+        android:id="@+id/text_view_for_name_of_house_in_list_item_container_xml_file"
+        android:layout_width="201dp"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/image_view_for_image_show_in_list_item_container_xml_file"
+        android:layout_marginEnd="23dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewForLocationOfHouseInlisetItemContainerXMLfile"
+        android:layout_width="201dp"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/text_view_for_name_of_house_in_list_item_container_xml_file"
+        android:layout_marginTop="53dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewForNumberOfBedroomsAndKitchen"
+        android:layout_width="202dp"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/text_view_for_name_of_house_in_list_item_container_xml_file"
+        android:layout_marginTop="89dp"
+        android:text="TextView" />
+
+    <RatingBar
+        android:id="@+id/ratingBarForHomeInList_item_containerXML_file"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/image_view_for_image_show_in_list_item_container_xml_file"
+        android:layout_alignStart="@+id/text_view_for_name_of_house_in_list_item_container_xml_file"
+        android:numStars="5"
+        android:rating="1.5"
+        android:stepSize="1.2" />
+
+
+</RelativeLayout>
