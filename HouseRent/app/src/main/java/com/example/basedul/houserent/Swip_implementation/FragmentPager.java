@@ -6,7 +6,6 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import com.example.basedul.houserent.R;
 
@@ -29,9 +28,6 @@ public class FragmentPager extends Fragment {
         View view = inflater.inflate(R.layout.fragment_fragment_pager, container, false);
         Bundle args = getArguments();
 
-        TextView textView = view.findViewById(R.id.text_view_id_in_fragment_pager_xml_file);
-        String countedValue = Integer.toString(args.getInt("Count"));
-        textView.setText("This is swip view page "+countedValue);
 
         return view;
     }

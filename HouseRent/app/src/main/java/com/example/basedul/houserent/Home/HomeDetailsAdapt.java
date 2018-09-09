@@ -13,8 +13,6 @@ import android.widget.TextView;
 
 import com.example.basedul.houserent.R;
 
-import org.w3c.dom.Text;
-
 import java.util.List;
 
 public class HomeDetailsAdapt extends ArrayAdapter<HomeDetails>{
@@ -39,13 +37,13 @@ public class HomeDetailsAdapt extends ArrayAdapter<HomeDetails>{
         HomeDetails homeDetails = getItem(position);
 
         name = (TextView) view.findViewById(R.id.text_view_for_name_of_house_in_list_item_container_xml_file);
-        name.setText(homeDetails.getNameOfHome());
+        name.setText("Name "+homeDetails.getNameOfHome());
 
         location = (TextView) view.findViewById(R.id.textViewForLocationOfHouseInlisetItemContainerXMLfile);
-        location.setText(homeDetails.getLocation());
+        location.setText("Location "+homeDetails.getLocation());
 
         numberOfBedroomsAndNumberOfKitchens = (TextView) view.findViewById(R.id.textViewForNumberOfBedroomsAndKitchen);
-        numberOfBedroomsAndNumberOfKitchens.setText(homeDetails.getNumberOfBedroomsAndNumberOfKitchen());
+        numberOfBedroomsAndNumberOfKitchens.setText("Number of kitchen"+Integer.toString(homeDetails.getNumberOfBedroomsAndNumberOfKitchen()));
 
         homeImage = (ImageView) view.findViewById(R.id.image_view_for_image_show_in_list_item_container_xml_file);
         homeImage.setImageResource(homeDetails.getPhotoOfHome());

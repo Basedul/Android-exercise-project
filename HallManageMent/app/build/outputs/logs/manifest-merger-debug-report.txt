@@ -45,12 +45,12 @@ ADDED from /home/basedul/AndroidStudioProjects/HallManageMent/app/src/main/Andro
 		ADDED from /home/basedul/AndroidStudioProjects/HallManageMent/app/src/main/AndroidManifest.xml:12:9-35
 	android:theme
 		ADDED from /home/basedul/AndroidStudioProjects/HallManageMent/app/src/main/AndroidManifest.xml:15:9-40
-activity#com.delaroystudios.studentmgt.StudentMainActivity
+activity#com.example.basedul.StudentMainActivity
 ADDED from /home/basedul/AndroidStudioProjects/HallManageMent/app/src/main/AndroidManifest.xml:16:9-24:20
 	android:label
 		ADDED from /home/basedul/AndroidStudioProjects/HallManageMent/app/src/main/AndroidManifest.xml:18:13-45
 	android:name
-		ADDED from /home/basedul/AndroidStudioProjects/HallManageMent/app/src/main/AndroidManifest.xml:17:13-77
+		ADDED from /home/basedul/AndroidStudioProjects/HallManageMent/app/src/main/AndroidManifest.xml:17:13-67
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /home/basedul/AndroidStudioProjects/HallManageMent/app/src/main/AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN

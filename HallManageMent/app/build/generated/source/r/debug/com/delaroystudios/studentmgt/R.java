@@ -20,13 +20,12 @@ public final class R {
     public static final int action_settings=0x7f030001;
     public static final int addbtn=0x7f030002;
     public static final int deletebtn=0x7f030003;
-    public static final int marks=0x7f030004;
-    public static final int modifybtn=0x7f030005;
-    public static final int name=0x7f030006;
-    public static final int roll_no=0x7f030007;
-    public static final int showbtn=0x7f030008;
-    public static final int viewallbtn=0x7f030009;
-    public static final int viewbtn=0x7f03000a;
+    public static final int modifybtn=0x7f030004;
+    public static final int name=0x7f030005;
+    public static final int roll_no=0x7f030006;
+    public static final int showbtn=0x7f030007;
+    public static final int viewallbtn=0x7f030008;
+    public static final int viewbtn=0x7f030009;
   }
   public static final class layout {
     public static final int activity_student_main=0x7f040000;

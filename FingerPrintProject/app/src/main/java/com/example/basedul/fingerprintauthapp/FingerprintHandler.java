@@ -3,6 +3,7 @@ package com.example.basedul.fingerprintauthapp;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.hardware.fingerprint.FingerprintManager;
 import android.media.Image;
 import android.os.Build;
@@ -10,6 +11,7 @@ import android.os.CancellationSignal;
 import android.support.v4.content.ContextCompat;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 @TargetApi(Build.VERSION_CODES.M)
 public class FingerprintHandler extends FingerprintManager.AuthenticationCallback {
@@ -53,7 +55,11 @@ public class FingerprintHandler extends FingerprintManager.AuthenticationCallbac
     @Override
     public void onAuthenticationSucceeded(FingerprintManager.AuthenticationResult result) {
 
-        this.update("You can now access the app.", true);
+        //this.update("You can now access the app.", true);
+        Toast.makeText(context, "Successfully login", Toast.LENGTH_LONG).show();
+
+        Intent intent = new Intent(context, StudentInformation.class);
+        context.startActivity(intent);
 
     }
 

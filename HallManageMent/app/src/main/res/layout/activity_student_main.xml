@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.delaroystudios.studentmgt.StudentMainActivity" >
+    tools:context="com.example.basedul.StudentMainActivity" >
 
     <EditText
         android:id="@+id/roll_no"
@@ -29,13 +29,6 @@
         android:ems="10"
         android:hint="Enter Your Name" />
 
-    <EditText
-        android:id="@+id/marks"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Enter Marks"
-        android:inputType="number" />
 
     <LinearLayout
         android:layout_width="match_parent"

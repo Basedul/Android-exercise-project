@@ -1,14 +1,11 @@
 package com.example.basedul.houserent;
 
-import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.ActionBar;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -21,11 +18,11 @@ import android.view.MenuItem;
 
 import com.example.basedul.houserent.Swip_implementation.FragmentAdapter;
 import com.example.basedul.houserent.TabList.Experiences;
-import com.example.basedul.houserent.TabList.Homes;
+import com.example.basedul.houserent.TabList.House;
 import com.example.basedul.houserent.TabList.Resturents;
 
 public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener, Homes.OnFragmentInteractionListener,
+        implements NavigationView.OnNavigationItemSelectedListener, House.OnFragmentInteractionListener,
         Experiences.OnFragmentInteractionListener, Resturents.OnFragmentInteractionListener
 {
 
