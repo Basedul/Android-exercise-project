@@ -147,7 +147,7 @@ public class StudentInformation extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                showMessage("Student Management Application", "Developed By Delaroy Studios");
+                showMessage("Finger print developed", "Developed By Basedul isalm");
             }
         });
 
